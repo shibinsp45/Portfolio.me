@@ -115,12 +115,14 @@ nav{
 }
 .infobox{
     display: flex;
+    color:red;
     align-items:center;
     margin-bottom:1rem;
 }
 .infobox>span{
     margin-left:1rem;
     font-size: 18px;
+    color:black;
 }
 #skill{
     margin:8% 8% 0px 8%;
@@ -236,7 +238,7 @@ html{
 .up-arrow{
     float: right;
     margin:-30px 30px 30px 0px;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.375);
     border-radius: 50% 50% 50% 100%;
     width: 50px;
     height: 50px;
